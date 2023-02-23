@@ -5,6 +5,14 @@
 
 найти строку: root ALL = (ALL:ALL) ALL  
 под ней дописать: <имя пользователя> ALL=(ALL:ALL) ALL  
+Получится примерно так:  
+ User privilege specification  
+
+root    ALL=(ALL:ALL) ALL  
+
+vboxuser ALL=(ALL:ALL) ALL  
+
+
 сохранить документ.  
 
 sudo apt-get install openjdk-11-jdk openjdk-17-jdk  
