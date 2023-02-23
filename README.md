@@ -1,11 +1,11 @@
 После создания виртуальной машины Debian:  
 создать пользователя sudo  
-в терминале пишем: su -
-потом: gedit /etc/sudoers
+в терминале пишем: su -  
+потом: gedit /etc/sudoers  
 
-найти строку: root ALL = (ALL:ALL) ALL
-под ней дописать: <имя пользователя> ALL=(ALL:ALL) ALL
-сохранить документ.
+найти строку: root ALL = (ALL:ALL) ALL  
+под ней дописать: <имя пользователя> ALL=(ALL:ALL) ALL  
+сохранить документ.  
 
 sudo apt-get install openjdk-11-jdk openjdk-17-jdk  
 
